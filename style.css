@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body .cena{
+    background-image: url(/assets/cidade.jpg);
+    width: 1000px; height: 500px;
+    position: absolute;
+
+}
+
+img{
+ position:absolute ;  
+ 
+}
+
+.cena .aviao1{
+    width: 8rem;
+    top: 8rem;
+    opacity: 0.6;
+    animation: mover-aviao1 30s linear infinite;
+}
+
+.cena .aviao2{
+    width: 15rem;
+    bottom: 1rem;
+    left: -15rem;
+    opacity: 0.9;
+    transform: rotate(-30deg);
+    animation: mover-aviao2 30s linear infinite;
+}
+
+.cena .nuvem1{
+    width: 9rem;
+    top:0px;
+    right: 8rem;
+    opacity: 0.7;
+    animation: mover-nuvem 35s linear infinite;
+
+}
+.cena .nuvem2{
+    height: 7rem;
+    top: 5rem;
+    right: 1rem;
+    opacity: 0.7;
+    animation: mover-nuvem 35s linear infinite;
+}
+
+.cena .nuvem3{
+    height: 6rem;
+    top: 8rem;
+    right: 12rem;
+    opacity: 0.6;
+    animation: mover-nuvem 35s linear infinite;
+}
+
+.cena .nuvem4{
+    height: 6rem;
+    top: 6rem;
+    right: 18rem;
+    opacity: 0.6;
+    animation: mover-nuvem 35s linear infinite;
+}
+.cena .nuvem5{
+    height: 7rem;
+    top: 6rem;
+    right: 22rem;
+    opacity: 0.6;
+    animation: mover-nuvem 35s linear infinite;
+}
+.cena .nuvem6{
+    height: 8rem;
+    top: 0rem;
+    right: 30rem;
+    opacity: 0.7;
+    animation: mover-nuvem 35s linear infinite;
+}
+
+@keyframes mover-nuvem {
+    to {
+        transform: 
+        translateX(-250px);
+    }
+}
+
+@keyframes mover-aviao1{
+    to{
+        transform: 
+        translate(860px);
+    }
+}
+@keyframes mover-aviao2{
+    to{
+        transform: 
+        translate(1000px, -350px);
+    }
+}
