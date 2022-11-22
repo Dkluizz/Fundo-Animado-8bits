@@ -6,7 +6,7 @@
 }
 
 body .cena{
-    background-image: url(/assets/cidade.jpg);
+    background-image: url(assets/cidade.jpg);
     width: 1000px; height: 500px;
     position: absolute;
 
